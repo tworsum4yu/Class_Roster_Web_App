@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Class_Roster_Web_App.iml" filepath="$PROJECT_DIR$/.idea/Class_Roster_Web_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend/class_roster_react/class_roster_react.iml" filepath="$PROJECT_DIR$/frontend/class_roster_react/class_roster_react.iml" />
     </modules>
   </component>
 </project>
