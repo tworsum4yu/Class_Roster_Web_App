@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>class_roster</artifactId>
+	<artifactId>class_roster_backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>class_roster</name>
 	<description>Class Roster Web application Spring Backend</description>
