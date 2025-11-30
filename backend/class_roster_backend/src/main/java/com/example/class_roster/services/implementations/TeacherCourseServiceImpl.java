@@ -1,7 +1,7 @@
 package com.example.class_roster.services.implementations;
 
 import com.example.class_roster.dao.implementations.TeacherCourseDaoImpl;
-Simport com.example.class_roster.dto.TeacherCourse;
+import com.example.class_roster.dto.TeacherCourse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
