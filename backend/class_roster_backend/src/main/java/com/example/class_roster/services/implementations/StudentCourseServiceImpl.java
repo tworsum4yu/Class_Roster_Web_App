@@ -4,11 +4,11 @@ import com.example.class_roster.dao.implementations.StudentCourseDaoImpl;
 import com.example.class_roster.dto.StudentCourse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Repository
+@Service
 public class StudentCourseServiceImpl {
 
     private final StudentCourseDaoImpl scDao;

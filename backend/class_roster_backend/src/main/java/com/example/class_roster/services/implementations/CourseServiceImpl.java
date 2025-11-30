@@ -5,11 +5,11 @@ import com.example.class_roster.dto.Course;
 import com.example.class_roster.services.ServiceInterface;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Repository
+@Service
 public class CourseServiceImpl implements ServiceInterface<Course> {
 
     private final CourseDaoImpl courseDao;

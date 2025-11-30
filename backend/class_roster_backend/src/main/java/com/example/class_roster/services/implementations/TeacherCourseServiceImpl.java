@@ -1,17 +1,14 @@
 package com.example.class_roster.services.implementations;
 
-import com.example.class_roster.dao.implementations.StudentCourseDaoImpl;
 import com.example.class_roster.dao.implementations.TeacherCourseDaoImpl;
-import com.example.class_roster.dto.StudentCourse;
-import com.example.class_roster.dto.TeacherCourse;
-import com.example.class_roster.services.ServiceInterface;
+Simport com.example.class_roster.dto.TeacherCourse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Repository
+@Service
 public class TeacherCourseServiceImpl {
 
     private final TeacherCourseDaoImpl tcDao;
